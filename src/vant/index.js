@@ -22,7 +22,8 @@ import {
     GoodsActionButton,
     Sku, //弹出购物车
     SubmitBar, //提交订单
-    Stepper //加减按钮
+    Stepper, //加减按钮
+    Field //输入框
 } from 'vant';
 
 export default () => {
@@ -41,4 +42,5 @@ export default () => {
     Vue.use(Sku);
     Vue.use(SubmitBar);
     Vue.use(Stepper);
+    Vue.use(Field);
 }

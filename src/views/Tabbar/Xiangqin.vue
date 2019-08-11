@@ -29,11 +29,81 @@
                             <a href="###"><img class="default_image" src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2019-07/5d35665f7028f.jpg" alt=""></a>
                             <div class="text">
                                 <p class="goods_name">波点阔腿裤女高腰垂感夏雪纺高腰束脚花苞裤...</p>
-                                <span class="virtual_seles">月销856件</span>
+                                <span class="virtual_seles">月销584件</span>
                                 <div class="bottom">
                                     <p class="fenxiao_price">
                                         <span style="font-size:12px">￥</span>
                                         31.90
+                                    </p>
+                                    <span class="nowbuy">下单</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="###"><img class="default_image" src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2019-07/5d4132302cd33.jpg" alt=""></a>
+                            <div class="text">
+                                <p class="goods_name">新款高端女装短袖女碎花挂脖韩版时尚魅力花朵图案上衣</p>
+                                <span class="virtual_seles">月销949件</span>
+                                <div class="bottom">
+                                    <p class="fenxiao_price">
+                                        <span style="font-size:12px">￥</span>
+                                        41.90
+                                    </p>
+                                    <span class="nowbuy">下单</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="###"><img class="default_image" src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2019-06/5d0781899d168.jpg" alt=""></a>
+                            <div class="text">
+                                <p class="goods_name">花溪 少女复古玫瑰刺绣大方领露背纱裙连衣裙</p>
+                                <span class="virtual_seles">月销856件</span>
+                                <div class="bottom">
+                                    <p class="fenxiao_price">
+                                        <span style="font-size:12px">￥</span>
+                                        67.50
+                                    </p>
+                                    <span class="nowbuy">下单</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="###"><img class="default_image" src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2019-06/5d077f036e0e0.jpg" alt=""></a>
+                            <div class="text">
+                                <p class="goods_name">花溪 桔梗少女复古条纹泡泡袖连衣裙法式高腰长裙</p>
+                                <span class="virtual_seles">月销685件</span>
+                                <div class="bottom">
+                                    <p class="fenxiao_price">
+                                        <span style="font-size:12px">￥</span>
+                                        55.60
+                                    </p>
+                                    <span class="nowbuy">下单</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="###"><img class="default_image" src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2019-06/5d0779a03472d.gif" alt=""></a>
+                            <div class="text">
+                                <p class="goods_name">花溪 波光蓝复古闪亮面料钻石领荷叶边连衣裙</p>
+                                <span class="virtual_seles">月销516件</span>
+                                <div class="bottom">
+                                    <p class="fenxiao_price">
+                                        <span style="font-size:12px">￥</span>
+                                        49.90
+                                    </p>
+                                    <span class="nowbuy">下单</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="###"><img class="default_image" src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2019-06/5d07741a97846.jpg" alt=""></a>
+                            <div class="text">
+                                <p class="goods_name">花溪 rose萋萋藕粉色原创印花显瘦鱼尾吊带裙</p>
+                                <span class="virtual_seles">月销598件</span>
+                                <div class="bottom">
+                                    <p class="fenxiao_price">
+                                        <span style="font-size:12px">￥</span>
+                                        55.50
                                     </p>
                                     <span class="nowbuy">下单</span>
                                 </div>
@@ -280,5 +350,8 @@ img {
   right: 6px;
   background: #fff;
   margin-top: -3px;
+}
+.product ul li:nth-child(2n) {
+  margin-left: 2%;
 }
 </style>

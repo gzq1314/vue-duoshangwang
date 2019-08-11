@@ -9,7 +9,6 @@ export default {};
 </script>
 
 <style>
-/* RESET */
 html {
   font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
   font-size: 12px;

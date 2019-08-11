@@ -11,7 +11,7 @@
         <van-tab title="素材" id="nav"></van-tab>
       </van-tabs>
     </div>
-    <div class="box1">
+    <div class="box1" @click="shopcar">
       <van-icon name="shopping-cart-o" size="25px" />
     </div>
     <!-- 商品图片 -->
@@ -276,11 +276,6 @@ export default {
     back() {
       this.$router.go(-1);
     },
-    getSelectedCount(cont){
-      //当子组件把选中的数量传递给父组件
-       this.quotaUsed = count;
-       console.log(this.quotaUsed)
-    },
     onBuyClicked() {},
     // 购物按钮
     onAddCartClicked() {
@@ -296,6 +291,11 @@ export default {
 
       //调用store中的mutations来将商品加入购物车
       this.$store.commit("addToCar", potoinfo);
+    },
+    shopcar(){
+      this.$router.push({
+        name : 'car'
+      })
     }
   }
 };

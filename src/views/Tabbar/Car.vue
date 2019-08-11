@@ -29,7 +29,7 @@
         </div>
       </div>
       <!-- 结算区域 -->
-      <van-submit-bar :price="3050" button-text="提交订单" @submit="onSubmit" />
+      <van-submit-bar :price="0" button-text="提交订单" @submit="onSubmit" />
     </div>
   </div>
 </template>

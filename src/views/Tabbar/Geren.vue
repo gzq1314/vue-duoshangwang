@@ -11,7 +11,7 @@
         <div class="pic">
           <img src="http://m.ecduo.cn/static/images/newwap/yc_04.png">
         </div>
-        <a href="/login.html" class="user-name">登录/注册</a>
+        <a href="###" class="user-name" @click="goSign">登录/注册</a>
       </div>
     </div>
     <!-- 内容区域 -->
@@ -26,7 +26,7 @@
       <div class="ordCate-warpper">
         <ul class="flex">
           <li class="ordCate-item flex-1" v-for="(itme,index) in gouwu" :key="index">
-            <a href="/orders_11.html" class="warpper">
+            <a href="###" class="warpper">
               <span class="pic"><img :src="itme.img"></span>
               <p class="text" v-text="itme.title"></p>
             </a>
@@ -43,31 +43,31 @@
             </a>
           </li>
           <li class="ordCate-item  borderBottom ">
-            <a href="/collect_goods.html" class="warpper ">
+            <a href="###" class="warpper ">
               <span class="pic"><img src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2019-06/5d01b7f07f044.png"></span>
               <p class="text">收藏</p>
             </a>
           </li>
           <li class="ordCate-item  borderBottom ">
-            <a href="/new_index.php?route=newweidian&amp;app=default" class="warpper ">
+            <a href="###" class="warpper ">
               <span class="pic"><img src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2019-06/5d01b6a752924.png"></span>
               <p class="text">开微店</p>
             </a>
           </li>
           <li class="ordCate-item  borderBottom ">
-            <a href="/new_index.php?route=wap&amp;app=order&amp;act=address_list&amp;is_manager=1" class="warpper ">
+            <a href="###" class="warpper ">
               <span class="pic"><img src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2019-06/5d01b689cdf64.png"></span>
               <p class="text">收货地址</p>
             </a>
           </li>
           <li class="ordCate-item  borderBottom ">
-            <a href="#" class="warpper cart-add">
+            <a href="###" class="warpper cart-add">
               <span class="pic"><img src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2019-06/5d01b8005c207.png"></span>
               <p class="text">联系客服</p>
             </a>
           </li>
           <li class="ordCate-item  borderBottom ">
-            <a href="/new_index.php?route=wap&amp;app=workman&amp;act=chat_session" class="warpper ">
+            <a href="###">
               <span class="pic"><img src="http://cdn.img.ecduo.cn/ecduo/Uploads/Picture/2018-08/5b86667b29b18.png"></span>
               <p class="text">客服消息</p>
             </a>
@@ -125,6 +125,11 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    goSign() {
+      this.$router.push({ name: "sin" });
+    }
   }
 };
 </script>

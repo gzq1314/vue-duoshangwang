@@ -291,11 +291,12 @@ export default {
 
       //调用store中的mutations来将商品加入购物车
       this.$store.commit("addToCar", potoinfo);
+      alert("已添加到购物车");
     },
-    shopcar(){
+    shopcar() {
       this.$router.push({
-        name : 'car'
-      })
+        name: "car"
+      });
     }
   }
 };
